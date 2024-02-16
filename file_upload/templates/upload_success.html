@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>File Uploaded Successfully</h1>
+  <p>Your file has been uploaded to our servers. Thank you for your submission.</p>
+  <a href="{% url 'upload' %}">Upload another file</a>
+{% endblock %}
